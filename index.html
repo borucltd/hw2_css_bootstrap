@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="description" content="Adelaide Web Developer BootCamp.">
     <meta name="keywords" content="HTML,CSS,JavaScript,Git">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
     <meta name="author" content="Mariusz Boruc">
     <title>Index</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="./styles/index.css">
 </head>
 
 
@@ -18,57 +16,58 @@
 
   <!-- header section -->
   <header class="container bg-warning rounded-top">
-    <p>Consectetur officia nisi ex occaecat. Tempor nulla non nulla commodo eu aliqua est enim eiusmod ea ea ut et. Reprehenderit irure Lorem consequat qui ipsum cupidatat cillum est. Id laborum elit est nisi dolore aliquip. Lorem labore laboris amet minim mollit magna anim proident sit aliqua ea. Aliquip eiusmod nostrud aliquip ut elit culpa culpa cupidatat cillum.</p>
+    <p>Some text about what is this page about.</p>
   </header>
 
   <!-- nav bar section -->
   <section class="container">
     <section class="row">
-        <nav class="nav">
-          <a class="nav-link active" href="#about_me_id">About me</a>
-          <a class="nav-link" href="#photos_id">Photos</a>
-          <a class="nav-link" href="#contact_id">Contact</a>
-          <a class="nav-link" href="#tbd_id">TDB</a>
-        </nav>
+      <nav class="nav">
+        <a class="nav-link active" href="#about_me_id">Home</a>
+      </nav>
+      
+      <nav class="nav lg-0">
+        <a class="nav-link active" href="#about_me_id">About me</a>
+        <a class="nav-link" href="#photos_id">Photos</a>
+        <a class="nav-link" href="#contact_id">Contact</a>
+        <a class="nav-link" href="#tbd_id">TDB</a>
+      </nav>
     </section>
   </section>
 
   <!-- main section -->
-  <main class="container bg-info mt-3">
+  <main class="container mt-3">
     <section class="row">
+
       <!-- empty left column -->
       <section class="col">
       </section>
       
       <!-- middle column -->
-      <section class="col-6 bg-secondary">
+      <section class="col-6">
 
         <!-- top row -->
-        <section class="row pt-3"> 
+        <section class="row pt-3 pb-3"> 
           
-          <section class="col  rounded-circle bg-warning text-center ml-2 mr-2 ">
-           
-            <p id="about_me_id">About me</p>
-           
+          <section class="col text-center m-2"> 
+            <img src="./icons/hippie.svg" class="size" alt="About me" id="about_me_id">    
           </section>
 
-          <section class="col rounded-circle bg-warning text-center ml-2 mr-2">
-
-            <p id="photos_id">Photos</p>
-
-          </section>
+          <section class="col text-center m-2">
+            <img src="./icons/photo-camera.svg" class="size" alt="Gallery" id="photos_id">
+           </section>
 
         </section>
 
         <!-- bottom row -->
         <section class="row pt-3 pb-3"> 
           
-          <section class="col rounded-circle bg-warning text-center ml-2 mr-2">
-            <p id="contact_id">Contact</p>
+          <section class="col text-center m-2">
+            <img src="./icons/megaphone.svg" class="size" alt="Contact" id="contact_id"> 
           </section>
 
-          <section class="col rounded-circle bg-warning text-center ml-2 mr-2">
-            <p id="tbd_id">tbd</p>
+          <section class="col  text-center m-2">
+            <img src="./icons/megaphone.svg" class="size" alt="TBD" id="tbd_id"> 
           </section>
 
         </section>
@@ -82,8 +81,9 @@
 
   <!-- footer section -->
   <footer class="container bg-secondary mt-3 rounded-bottom">
-    <p>Cupidatat tempor sint qui sint laboris eu dolore aliquip adipisicing ad aute.</p>
+    <p>Made by ...... .</p>
+    <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
   </footer>
-  
+
 </body>
-</html>
+</html> 

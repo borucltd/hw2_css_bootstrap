@@ -1,35 +1,22 @@
-.relative {
-    position: relative;
-}
-
-.absolute_top_left {
-    position: absolute;
-    top: 0;
-    left: -100px;
+.size {
     width: 200px;
     height: 200px;
 }
 
-.absolute_top_right {
-    position: absolute;
-    top: 0;
-    right: -100px;
-    width: 200px;
-    height: 100px;
-}
-
-.absolute_bottom_left {
-    position: absolute;
-    bottom: 0;
-    left: -100px;
-    width: 200px;
+}.top_left {
+    background-image: "./icons/hippie.svg";
+    width:200px;
     height: 200px;
 }
 
-.absolute_bottom_right {
-    position: absolute;
-    bottom: 0;
-    right: -100px;
-    width: 200px;
-    height: 100px;
+.top_right {
+    background-image: "./icons/photo-camera.svg";
+}
+
+.bottom_left {
+    background-image: "./icons/megaphone.svg";
+}
+
+.bottom_right {
+    background-image: "./icons/megaphone.svg";
 }
