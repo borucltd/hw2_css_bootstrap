@@ -1,22 +1,17 @@
+.img_rotate_360:hover {
+    transform: rotate(360deg);
+    transition-duration:1s;
+    -webkit-transform:rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+
+.main_background {
+    background-image: url("../graphics/background.jpg");
+    opacity: 0.75;
+}
 .size {
-    width: 200px;
-    height: 200px;
-}
-
-}.top_left {
-    background-image: "./icons/hippie.svg";
-    width:200px;
-    height: 200px;
-}
-
-.top_right {
-    background-image: "./icons/photo-camera.svg";
-}
-
-.bottom_left {
-    background-image: "./icons/megaphone.svg";
-}
-
-.bottom_right {
-    background-image: "./icons/megaphone.svg";
+    max-width: 100%;
+    height: auto;
 }
