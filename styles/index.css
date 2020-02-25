@@ -1,3 +1,19 @@
+
+
+
+
+.main_background {
+    background-image: url("../graphics/background.jpg");
+    opacity: 0.75;
+}
+
+/* image on index.html must be responsive */
+.size {
+    max-width: 100%;
+    height: auto;
+}
+
+/* images on index.html shoudl rotate */
 .img_rotate_360:hover {
     transform: rotate(360deg);
     transition-duration:1s;
@@ -6,12 +22,3 @@
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
   }
-
-.main_background {
-    background-image: url("../graphics/background.jpg");
-    opacity: 0.75;
-}
-.size {
-    max-width: 100%;
-    height: auto;
-}
