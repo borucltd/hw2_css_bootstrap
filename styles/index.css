@@ -1,6 +1,9 @@
 
 
-
+/* header section */
+.white_link {
+    font-color: white;
+}
 
 .main_background {
     background-image: url("../graphics/background.jpg");
