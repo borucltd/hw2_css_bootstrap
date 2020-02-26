@@ -3,7 +3,7 @@
 /* header section */
 .funny_thing {
     color: white;
-    background-color: black;
+    background-color: red;
     margin: 0;
     z-index: 2;
 }
@@ -29,4 +29,33 @@
     -o-transform: rotate(360deg);
   }
 
- 
+  .embed_size {
+      height: auto;
+      weight: auto;
+  }
+
+
+.over {
+    overflow-y: visible;
+}
+  
+
+/* class to cusrtomize navbar-brand */
+.navbar-brand-override {
+    position: absolute;
+    left: 5%;
+    background-color: #5e6c92;
+    line-height: 230%;   
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+/* classes for hyperlink */
+
+
+/* classes for header and footer */
+  .header_footer_font {
+
+
+
+  }
