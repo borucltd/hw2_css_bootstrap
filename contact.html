@@ -51,29 +51,47 @@
   <main class="container mt-3">
 
     <section class="row">
-      <section class="col-lg-6">
+      <section class="col-lg-6 border-sm content-center">
         <section>
-          <h1> Contact</h1>
+          <h1>Contact</h1>
         </section>
         
         <section class="clearfix"></section>
 
         <section>
-          <p> Write something</p>
+          <p>Everyone has right to speak...</p>
         </section>
+
+        <secion>
+          <img class="img-responsive custom-contact-image" src="./graphics/loud-512.png" alt="Speak up !!!">
+        </secion>
 
       </section>
 
       <section class="col-lg-6">
+
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Large textarea</label>
-          <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
+          <!-- email -->
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          
+          <!-- topic -->
+          <label for="exampleFormControlTextarea2">Topic [maximum 24 characters]</label>
+          <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" maxlength="24" placeholder="Topic..."></textarea>
+          
+          <!-- message -->
+          <label for="exampleFormControlTextarea1">Message [maximum 512 characters]</label>
+          <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10" maxlength="512" placeholder="Message..."></textarea>
+
+          <!-- submit button -->
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+          <!-- clear message -->
+          <button type="clear" class="btn btn-primary">Clear all</button>
         </div>
         
-        <div class="form-group">
-          <label for="exampleFormControlTextarea2">Small textarea</label>
-          <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
-        </div>
+        
       </section>
 
     </section>
