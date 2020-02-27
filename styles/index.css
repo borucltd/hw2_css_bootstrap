@@ -13,9 +13,18 @@
 /* custom google fonts */
 a {
     font-family:  'Ubuntu','Lato', sans-serif;
- 
   }
 
+a:hover {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: bg-info;
+ }
+  
+a:focus {
+    color: white;
+ }
   
 /* custom colors */
 .custom-background-color {
