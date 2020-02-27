@@ -1,61 +1,19 @@
-
-
-/* header section */
-.funny_thing {
-    color: white;
-    background-color: red;
-    margin: 0;
-    z-index: 2;
+/* to keep navbar items horizontal */
+.custom-row {
+    flex-direction: row;
 }
 
-.main_background {
-    background-image: url("../graphics/background.jpg");
-    opacity: 0.75;
+/* main page image*/
+.custom-main-image {
+    height: 200px;
+    width: auto;
+    overflow: hidden;
 }
 
-/* image on index.html must be responsive */
-.size {
-    max-width: 100%;
-    height: auto;
+.custom-background-color {
+    background-color:#d9ca1a;
 }
 
-/* images on index.html shoudl rotate */
-.img_rotate_360:hover {
-    transform: rotate(360deg);
-    transition-duration:1s;
-    -webkit-transform:rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-  }
-
-  .embed_size {
-      height: auto;
-      weight: auto;
-  }
-
-
-.over {
-    overflow-y: visible;
+.custom-text-color {
+    color:#000000;
 }
-  
-
-/* class to cusrtomize navbar-brand */
-.navbar-brand-override {
-    position: absolute;
-    left: 5%;
-    background-color: #5e6c92;
-    line-height: 230%;   
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-}
-
-/* classes for hyperlink */
-
-
-/* classes for header and footer */
-  .header_footer_font {
-
-
-
-  }
