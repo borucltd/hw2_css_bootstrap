@@ -4,121 +4,190 @@
     <meta charset="UTF-8">
     <meta name="description" content="Adelaide Web Developer BootCamp.">
     <meta name="keywords" content="HTML,CSS,JavaScript,Git">
-    <meta name="viewpo rt" content="width=device-width, initial-scale=1">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
     <meta name="author" content="Mariusz Boruc">
+    
     <title>Gallery</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="./styles/index.css">
 </head>
 
-
 <body>
+
+<!-- header section -->
+<header class="container-fluid" id="go_to_top">
+  <section class="row">
+
+    <!-- left part -->
+    <nav class="col-lg-2 navbar navbar-expand-lg navbar-light bg-info d-flex justify-content-center ">
+      <!-- <a class="navbar-brand bg-warning mx-10 disabled" href="#"><span class="nav-item disabled">MariusZ</span></a> -->
+      <span class="navbar-brand text-white mb-0 h1 ">MARIUSZ</span>
+    </nav>
+
+    <!-- right part -->
+    <nav class="col-lg-10 navbar navbar-expand-lg navbar-light  justify-content-end custom-background-color ">
+      <ul class="navbar-nav d-flex flex-lg-row align-items-center custom-text-color  flex-grow-1 custom-row ">
+          <li class="nav-item mx-auto">
+            <a class="nav-link custom-navbar-item active" href="./about.html">About me</a>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link active " href="./portfolio.html">Gallery</a>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link active " href="./contact.html">Contact</a>
+          </li>
+      </ul>
+    </nav>
+  </section>
+</header>
+
+
+<!-- main section -->
+<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+
+  <!--Controls-->
+  <div class="controls-top">
+    <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+    <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+    </div>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(26).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+    </div>
+    <!--/.Second slide-->
+
+    <!--Third slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+    </div>
+    <!--/.Third slide-->
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+</div>
+
+
   
-  <!-- header section -->
-  <header class="container bg-info rounded-top rounded-bottom" id="go_to_top">
-    
-    <!-- top row -->
-    <section class="row">
-      <section class="col">
-        <p>Small website which contains a bit info about myself.</p>
-      </section>
-    </section>
-    
-    <!-- navbar section is wrapped by the header -->
-    <section class="row">
-      <section class="col">
-              <nav class="navbar navbar-expand-sm navbar-dark bg-dark rounded-top justify-content-end"> 
-                  <span class="navbar-brand navbar-brand-override mb-0 h1 ">MARIUSZ</span>
-                  <a class="nav-link active  ml-auto mr-1"  href="./about.html">About</a>
-                  <a class="nav-link active" href="./portfolio.html">Portfolio</a>
-                  <a class="nav-link active" href="./contact.html">Contact</a>
-                  <a class="nav-link active" href="./index.html">HOME</a>      
-              </nav>
-      </section>
-    </section>
-  
-  </header>
-
-  <main class="container mt-4">
-
-    <!-- top row -->
-    <section class="row ">
-     
-      <section class="col">
-      </section>
-      
-      <!-- about me -->
-      <section class="col-md text-center m-1"> 
-        <a href="">
-          <img src="./icons/hippie.svg" class="img size img_rotate_360" alt="About me" id="about_me_id">
-        </a> 
-      </section>
-
-      <!-- gallery -->
-      <section class="col-md text-center m-1">
-        <a href="">
-          <img src="./icons/hippie.svg" class="img size img_rotate_360" alt="Gallery" id="photos_id">
-        </a>
-      </section>
-
-      <section class="col">
-      </section>
-    
-    </section>
-
-    <!-- bottom row -->
-    <section class="row ">
-     
-      <section class="col">
-      </section>
-      
-      <!-- contact -->
-      <section class="col-md text-center m-1"> 
-        <a href="">
-          <img src="./icons/hippie.svg" class="img size img_rotate_360" alt="About me" id="about_me_id">
-        </a> 
-      </section>
-
-      <!-- git hub -->
-      <section class="col-md text-center m-1">
-        <a href="">
-          <img src="./icons/hippie.svg" class="img size img_rotate_360" alt="Gallery" id="photos_id">
-        </a>
-      </section>
-
-      <section class="col">
-      </section>
-    
-    </section>
-  </main>
-  
-
-
-  
-
   <!-- footer section -->
-  <footer class="container bg-info rounded-top rounded-bottom mt-3 fixed-bottom">
+  <footer class="container-fluid bg-info mt-3 fixed-bottom">
     
     <!-- top row -->
-    <section class="container">
-      <section class="row">
-        <section class="col bg-dark rounded-bottom">
-            <a class="nav-link active" href="#go_to_top">Go back to the top.</a>
-        </section>
+    <section class="row">
+      <section class="col custom-background-color rounded-bottom">
+          <span class="nav-link active custom-text-color" ><a href="#go_to_top">Go back to the top.</a></span>
       </section>
     </section>
+  
 
     <!-- bottom row -->
     <section class="row">
-      <section class="col">
-        <p>Made by &copy; 2020 Mariusz Inc.</p>
+      <section class="col text-center">
+        <p class="text-white font-weight-light">Made by <span class="text-danger">&copy;</span> 2020 Mariusz Inc.</p>
       </section>
     </section>
   </footer>
-
-
-
-
 
 </body>
 </html> 
