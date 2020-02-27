@@ -10,6 +10,14 @@
     overflow: hidden;
 }
 
+/* custom google fonts */
+a {
+    font-family:  'Ubuntu','Lato', sans-serif;
+ 
+  }
+
+  
+/* custom colors */
 .custom-background-color {
     background-color:#d9ca1a;
 }
@@ -17,3 +25,5 @@
 .custom-text-color {
     color:#000000;
 }
+
+
