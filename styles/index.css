@@ -35,6 +35,15 @@ a:focus {
     color:#000000;
 }
 
+.navbar-brand-override {
+    position: absolute;
+    left: 5%;
+    background-color: #d9ca1a;
+    line-height: 230%;   
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
 
 /* CSS for portfolio.html */
 @media (min-width: 300x) {
