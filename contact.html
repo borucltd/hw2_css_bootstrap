@@ -34,7 +34,7 @@
     <nav class="col-lg-10 col-md-9 col-sm-9 navbar navbar-expand-lg navbar-light  justify-content-end custom-background-color ">
       <ul class="navbar-nav d-flex flex-lg-row align-items-center custom-text-color  flex-grow-1 custom-row ">
           <li class="nav-item mx-auto">
-            <a class="nav-link custom-navbar-item active" href="./about.html">About me</a>
+            <a class="nav-link custom-navbar-item active" href="./index.htm">About me</a>
           </li>
           <li class="nav-item mx-auto">
             <a class="nav-link active " href="./portfolio.html">Gallery</a>
@@ -56,53 +56,50 @@
       <section class="col-lg-6 col-md-6 col-sm-6">
         
         <h1>Contact</h1>
-        <p>Write something...</p>
+        <p>Write something...to me :)</p>
 
         <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
+          <section class="form-group">
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" rows="5" id="message" maxlength="256" required></textarea>
+            </div>
+          </section>
         </form>
+
+        
              
       </section>
 
       <section class="col-lg-6 col-md-6 col-sm-6">
-
         <form>
           <section class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="E-mail">
           </section>
+          <section class="form-group">
+            <label for="title">Title</label>
+            <textarea class="form-control" rows="1" id="title" maxlength="16" required></textarea>
+          </section>
+          
         </form>
+        
 
       </section>
     </section>
   
-    <!-- bottom row -->
+    <!-- bottom row --> 
     <section class="row">
       
-      <section class="col-lg-6 col-md-6 col-sm-6">
-         <form>
-          <section class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </section>
+      <section class="col-lg-12 col-md-12 col-sm-12">
+        <form class="form-horizontal">
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-secondary mr-3">Clear</button>
         </form>
+        
       </section>
 
-      <section class="col-lg-6 col-md-6 col-sm-6">
-        <form>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </section>
+    
 
     </section>
 

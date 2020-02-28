@@ -33,7 +33,13 @@ a:focus {
 
 /* this is to make a 60px fixed distance AFTER the main section, so the footer will nto overlap */
 .sticky-footer {
-    padding-bottom: 60px;
+    padding-bottom: 80px;
+}
+
+/*size of email png*/
+.email-icon {
+    height: 25%;
+    width: 25%;
 }
 
     
