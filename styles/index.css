@@ -35,23 +35,9 @@ a:focus {
     color:#000000;
 }
 
-.navbar-brand-override {
-    position: absolute;
-    left: 5%;
-    background-color: #d9ca1a;
-    line-height: 230%;   
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+/* this is to make a 60px fixed distance AFTER the main section, so the footer will nto overlap */
+.sticky-footer {
+    padding-bottom: 60px;
 }
 
-
-/* CSS for portfolio.html */
-@media (min-width: 300x) {
-    .carousel-multi-item-2 .col-md-3 {
-    float: left;
-    width: 25%;
-    max-width: 100%; } }
     
-    .carousel-multi-item-2 .card img {
-    border-radius: 2px; }
-
