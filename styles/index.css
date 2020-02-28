@@ -5,15 +5,8 @@
 
 /* main page image*/
 .custom-main-image {
-    height: 200px;
-    width: auto;
-    overflow: hidden;
-}
-
-/* contact page image*/
-.custom-contact-image {
-    height: 100px;
-    width: auto;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
