@@ -1,17 +1,12 @@
+/* ONE FILE FOR ALL CUSTOM CSS */
+
 /* to keep navbar items horizontal */
 .custom-row {
     flex-direction: row;
 }
 
-/* main page image*/
-.custom-main-image {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-
 /* custom google fonts */
-a {
+a,h1 {
     font-family:  'Ubuntu','Lato', sans-serif;
   }
 
@@ -26,6 +21,7 @@ a:focus {
     color: white;
  }
   
+
 /* custom colors */
 .custom-background-color {
     background-color:#d9ca1a;
