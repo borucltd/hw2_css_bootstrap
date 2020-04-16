@@ -40,6 +40,11 @@ a:hover {
     transition: 0.25s ease-out;
   }
 
+.bottomfa:focus{
+font-size:2em;
+transition: 0.25s ease-out;
+}
+
 .bottomfa {
     line-height: 1em;
     padding-left: 0.5em;
