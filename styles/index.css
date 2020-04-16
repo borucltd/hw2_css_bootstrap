@@ -42,4 +42,9 @@ a:focus {
     width: 25%;
 }
 
+/*bottom bar classes*/
+.bottom-bar a{
+    target="_blank";
+}
+
     
