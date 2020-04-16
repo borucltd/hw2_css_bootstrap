@@ -42,9 +42,20 @@ a:focus {
     width: 25%;
 }
 
-/*bottom bar classes*/
-.bottom-bar a{
-    target="_blank";
+.fa:hover{
+    font-size:2em;
+    transition: 0.25s ease-out;
+  }
+
+.fa {
+    line-height: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#contentMenu {
+    flex-grow: 100;
+
 }
 
     

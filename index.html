@@ -23,37 +23,38 @@
 
 <!-- header section -->
 <header class="container-fluid" id="go_to_top">
-  <section class="row">
 
-    <!-- left part -->
-    <nav class="col-lg-2 col-md-3 col-sm-3  navbar navbar-expand-lg navbar-light bg-info d-flex justify-content-center ">
-      <!-- <a class="navbar-brand bg-warning mx-10 disabled" href="#"><span class="nav-item disabled">MariusZ</span></a> -->
-      <span class="navbar-brand text-white mb-0 h1 ">MARIUSZ</span>
-      <!--<span class="navbar-brand text-white navbar-brand-override mb-0 h1 ">MARIUSZ</span>-->
-    </nav>
+  <!--navigation bar -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand" href="./index.html">MARIUSZ</a>
+    <!-- hamburger button, will collapse on screens < sm -->
+    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#contentMenu" aria-controls="contentMenu" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="dark-blue-text">
+        <i class="fa fa-bars fa-1x"></i>
+      </span>
+    </button>
 
-    <!-- right part -->
-    <nav class="col-lg-10 col-md-9 col-sm-9 navbar navbar-expand-lg navbar-light  justify-content-end custom-background-color ">
-      <ul class="navbar-nav d-flex flex-lg-row align-items-center custom-text-color  flex-grow-1 custom-row ">
-          <li class="nav-item mx-auto">
-            <a class="nav-link active" href="./index.html">ABOUT</a>
-          </li>
-          <li class="nav-item mx-auto">
-            <a class="nav-link active " href="./portfolio.html">RESUME</a>
-          </li>
-          <li class="nav-item mx-auto">
-            <a class="nav-link active " href="./portfolio.html">PORTFOLIO</a>
-          </li>
-          <li class="nav-item mx-auto">
-            <a class="nav-link active " href="./portfolio.html">BLOG</a>
-          </li>
-
-          <li class="nav-item mx-auto">
-            <a class="nav-link active " href="./contact.html">CONTACT</a>
-          </li>
-      </ul>
-    </nav>
-  </section>
+  <!-- menu which will be collapsed-->
+  <div class="collapse navbar-collapse " id="contentMenu">
+    <ul class="navbar-nav mr-auto ">
+        <li class="nav-item mx-3">
+          <a class="nav-link active" href="./index.html">ABOUT</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link active" href="./portfolio.html">RESUME</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link active" href="./portfolio.html">PORTFOLIO</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link active" href="./portfolio.html">BLOG</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link active" href="./contact.html">CONTACT</a>
+        </li>
+    </ul>
+  </div>
+</nav>
 </header>
 
 
@@ -88,7 +89,7 @@
     
     <!-- top row -->
     <section class="row">
-      <section class="col custom-background-color rounded-bottom">
+      <section class="col custom-background-color rounded-bottom text-center">
         <section class="bottom-bar">
           <a href="./index.html" target="_self" ><i class="fa fa-home"></i></a>
           <a href="#" target="_blank"><i class="fa fa-level-up "></i></a>
@@ -100,14 +101,15 @@
       </section>
     </section>
   
-
     <!-- bottom row -->
     <section class="row">
       <section class="col text-center">
-        <p class="text-white font-weight-light">Made by <span class="text-danger">&copy;</span> 2020 Mariusz Inc.</p>
+        <p class="text-white mb-0 h5">.:: 2020 ::.</p>
       </section>
     </section>
   </footer>
-
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html> 
