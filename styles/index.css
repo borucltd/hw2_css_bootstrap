@@ -12,15 +12,8 @@ a,h1 {
 
 a:hover {
     font-weight: bold;
-    color: white;
-    text-decoration: none;
-    background-color: bg-info;
  }
-  
-a:focus {
-    color: white;
- }
-  
+    
 
 /* custom colors */
 .custom-background-color {
@@ -42,12 +35,12 @@ a:focus {
     width: 25%;
 }
 
-.fa:hover{
+.bottomfa:hover{
     font-size:2em;
     transition: 0.25s ease-out;
   }
 
-.fa {
+.bottomfa {
     line-height: 1em;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -57,5 +50,6 @@ a:focus {
     flex-grow: 100;
 
 }
+
 
     
