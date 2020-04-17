@@ -2,15 +2,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Adelaide Web Developer BootCamp.">
+    <meta name="description" content="Adelaide Web sectioneloper.">
     <meta name="keywords" content="HTML,CSS,JavaScript,Git">
     <meta name="viewport" content="width=device-width, initial-scale=1">  
     <meta name="author" content="Mariusz Boruc">
     
-    <title>Gallery</title>
+    <title>Projects</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu&display=swap" rel="stylesheet">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Custom CSS -->
@@ -21,37 +23,46 @@
 
 <!-- header section -->
 <header class="container-fluid" id="go_to_top">
-  <section class="row">
 
-    <!-- left part -->
-    <nav class="col-lg-2 col-md-3 col-sm-3 navbar navbar-expand-lg navbar-light bg-info d-flex justify-content-center ">
-      <!-- <a class="navbar-brand bg-warning mx-10 disabled" href="#"><span class="nav-item disabled">MariusZ</span></a> -->
-      <span class="navbar-brand text-white mb-0 h1 ">MARIUSZ</span>
-      <!--<span class="navbar-brand text-white navbar-brand-override mb-0 h1 ">MARIUSZ</span>-->
-    </nav>
+  <!--navigation bar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-danger shadow-lg rounded">
+    <a class="navbar-brand px-3 mb-0 mx-0 h1 bg-info" href="./index.html" id="titleMenu">MARIUSZ</a>
+    <!-- hamburger button, will collapse on screens < md -->
+    <button class="navbar-toggler custom-background-color" type="button" data-toggle="collapse" data-target="#contentMenu" aria-controls="contentMenu" aria-expanded="true" aria-label="hamburger">
+      <span class="dark-blue-text">
+        <i class="fa fa-bars fa-1x custom-background-color" id="bars"></i>
+      </span>
+    </button>
 
-    <!-- right part -->
-    <nav class="col-lg-10 col-md-9 col-sm-9 navbar navbar-expand-lg navbar-light  justify-content-end custom-background-color ">
-      <ul class="navbar-nav d-flex flex-lg-row align-items-center custom-text-color  flex-grow-1 custom-row ">
-          <li class="nav-item mx-auto">
-            <a class="nav-link custom-navbar-item active" href="./index.html">About me</a>
-          </li>
-          <li class="nav-item mx-auto">
-            <a class="nav-link active " href="./portfolio.html">Gallery</a>
-          </li>
-          <li class="nav-item mx-auto">
-            <a class="nav-link active " href="./contact.html">Contact</a>
-          </li>
-      </ul>
-    </nav>
-  </section>
+  <!-- menu which will be collapsed-->
+  <div class="collapse navbar-collapse custom-background-color" id="contentMenu">
+    <ul class="navbar-nav mr-auto custom-text-color">
+        <li class="nav-item mx-3">
+          <a class="nav-link active" href="./index.html">ABOUT</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link active" href="./resume.html">RESUME</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link active" href="./portfolio.html">PORTFOLIO</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link active" href="./gallery.html">GALLERY</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link active" href="./contact.html">CONTACT</a>
+        </li>
+    </ul>
+  </div>
+</nav>
 </header>
 
 
- <!-- main section various column ratio to viewport... fun? -->
- <main class="container mt-3 sticky-footer">
+<!-- main section  -->
+ 
+<main class="container mt-3 sticky-footer">
 
-  <section class="row mx-lg-auto mx-md-3">
+  <section class="row mx-lg-auto mx-md-3 bg-light shadow-lg rounded">
   
     <!-- photo 1 -->
     <section class="col-lg-6 col-md-6 col-sm-6 text-center rounded ">
@@ -71,7 +82,7 @@
 
   </section>
 
-  <section class="row mx-lg-auto mx-md-3">
+  <section class="row mx-lg-auto mx-md-3 bg-light shadow-lg rounded">
   
     <!-- photo 3 -->
     <section class="col-lg-6 col-md-6 col-sm-6 text-center  rounded ">
@@ -92,24 +103,25 @@
   </section>
 </main>
  
- <!-- footer section: fixed-bottom is fancy bootstrap thingy to keep the section fixed to the bottom -->
- <footer class="container-fluid bg-info mt-3 fixed-bottom">
-    
-  <!-- top row -->
-  <section class="row">
-    <section class="col custom-background-color rounded-bottom">
-        <span class="nav-link active custom-text-color" ><a href="#go_to_top">Go back to the top.</a></span>
+  
+  <!-- footer section: fixed-bottom is fancy bootstrap thingy to keep the section fixed to the bottom -->
+  <footer class="container-fluid mt-3 fixed-bottom">
+    <!-- top row -->
+    <section class="navbar navbar-light d-flex justify-content-center bg-white rounded shadow-lg">
+        <section class="bottom-bar">
+          <a href="./index.html" ><i class="fa fa-home bottomfa"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-level-up bottomfa"></i></a>
+          <a href="./contact" target="_blank"><i class="fa fa-envelope bottomfa"></i></a>
+          <a href="https://twitter.com/Colonel_Moralez" target="_blank"><i class="fa fa-twitter-square bottomfa"></i></a>
+          <a href="https://github.com/borucltd" target="_blank"><i class="fa fa-github-square bottomfa"></i></a>
+          <a href="https://www.linkedin.com/in/mariusz-boruc-a7402a74" target="_blank"><i class="fa fa-linkedin-square bottomfa"></i></a>         
+        </section>
     </section>
-  </section>
+  </footer>
 
-
-  <!-- bottom row -->
-  <section class="row">
-    <section class="col text-center">
-      <p class="text-white font-weight-light">Made by <span class="text-danger">&copy;</span> 2020 Mariusz Inc.</p>
-    </section>
-  </section>
-</footer>
-
+  <!-- bootstrap JS, JQUERY needed for hamburger menu -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html> 
