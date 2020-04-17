@@ -72,7 +72,13 @@ a:hover {
     border-width: 1px;
 }
 
-.opacitybckg {
-    opacity: 0.2;
+.portfolio {
+    height: 50vh;
+    width: 50vw;    
+    object-fit: fill;
 }
-    
+
+.figure:hover {
+
+    opacity: 0.3;
+}
