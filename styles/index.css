@@ -26,7 +26,7 @@ a:hover {
 
 /* this is to make a 60px fixed distance AFTER the main section, so the footer will nto overlap */
 .sticky-footer {
-    padding-bottom: 80px;
+    padding-bottom: 2.5em;
 }
 
 /*size of email png*/
@@ -72,5 +72,7 @@ a:hover {
     border-width: 1px;
 }
 
-
+.opacitybckg {
+    opacity: 0.2;
+}
     
