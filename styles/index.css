@@ -6,23 +6,61 @@
 }
 
 /* custom google fonts */
-a,h1 {
-    font-family:  'Ubuntu','Lato', sans-serif;
+a, h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
   }
 
 a:hover {
     font-weight: bold;
  }
+
+ p{
+    font-family: 'Kalam', cursive;
+}
     
+.marker-font {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.kalam-font{
+    font-family: 'Kalam', cursive;
+}
+
+
+
 
 /* custom colors */
 .custom-background-color {
-    background-color:#d9ca1a;
+    background-color: white;
 }
 
 .custom-text-color {
-    color:#000000;
+    color:black;
 }
+.custom-text-color-footy {
+    color:black;
+}
+.custom-text-color-brand {
+    color:black;
+}
+.custom-background-color-brand {
+    background-color:white;
+}
+.custom-pic-text{
+    color:white;
+    font-weight: bold;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+.custom-pic-background{
+    background-color: black;
+}
+.border {
+    outline: 1px solid black;
+}
+.card {
+    border: none;
+}
+
 
 /* this is to make a 60px fixed distance AFTER the main section, so the footer will nto overlap */
 .sticky-footer {
@@ -57,21 +95,21 @@ a:hover {
 }
 
 .mainh4 {
-    font-size:1em;
+    font-size: 3.1em;
 }
 
 .mainp {
-    font-size:1em;
+    font-size:1.5em;
 
 }
 
 .nav-link:hover {
-    background-color: #5bc0de;
+    background-color: #dfdfdf;
+    color: black;
     border: #000000;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
 }
-
 .portfolio {
     height: 50vh;
     width: 50vw;    
@@ -82,3 +120,11 @@ a:hover {
 
     opacity: 0.3;
 }
+
+.section-centered a {
+    float: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
